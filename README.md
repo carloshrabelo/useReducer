@@ -1,17 +1,14 @@
-<div style="text-align:center">
-
-# useReducer as Redux
+<h1 align="center">useReducer as Redux</h1>
 
 This project is a sample of how to use useReducer with some practices provided by Redux, such as using `connect`, `combineReducers`, `useStore` and `useDisparch`
-
-
-![screenshot](./docs/screenshot.gif)
 
 [![Sandbox Sample](https://img.shields.io/static/v1?label=codesandbox&message=sample&color=000000&style=for-the-badge&logo=codesandbox)](https://codesandbox.io/s/broken-silence-ijhfc)
 ![React Framework](https://img.shields.io/static/v1?label=react&message=framework&color=61DAFB&style=for-the-badge&logo=REACT)
 ![Bootstrap](https://img.shields.io/static/v1?label=bootstrap&message=5.0.0-alpha1&color=563D7C&style=for-the-badge&logo=bootstrap)
 
-</div>
+<p align="center">
+  <img width="460" height="300" src="./docs/screenshot.gif" alt="screenshot">
+</p>
 
 ## About
 In addition to the reducer, this sample has a Status controlle, `src/components/Status.js` and `src/hooks/withStatus.js`
