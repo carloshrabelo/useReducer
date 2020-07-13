@@ -76,7 +76,7 @@ export const Status = ({
   };
   const currentState = status.find((state) => componentStatus[state]);
   const componentProps =
-    currentState === error ? { ...props, retry } : mixData(props, data);
+    currentState === "error" ? { ...props, retry } : mixData(props, data);
   const Component = renderState[currentState] || render;
   const ComponentError = renderState.error;
 
